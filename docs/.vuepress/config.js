@@ -56,7 +56,7 @@ module.exports = {
         }]
       },
       {
-        text: '社交主页',
+        text: '犯罪记录',
         items: [{
             text: '掘金',
             link: 'https://juejin.im/user/4089838987133496/posts'
@@ -68,9 +68,17 @@ module.exports = {
         ]
       }
     ],
-    sidebar: 'auto',
-    displayAllHeaders: true,
-    collapsable: true,
+    sidebar: {
+      '/frontend/': [{
+        title: 'CSS',
+        collapsable: false,
+        sidebarDepth: 1,
+        children: [
+          '/frontend/css/adaptive'
+        ]
+      }]
+    },
+    smoothScroll: true,
     lastUpdated: '最后更新时间',
   }
 }
