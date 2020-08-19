@@ -69,14 +69,22 @@ module.exports = {
       }
     ],
     sidebar: {
-      '/frontend/': [{
+      '/frontend/css/': [{
         title: 'CSS',
         collapsable: false,
         sidebarDepth: 1,
         children: [
           '/frontend/css/adaptive'
         ]
-      }]
+      }, ],
+      '/frontend/javascript/': [{
+        title: 'Javascript',
+        collapsable: false,
+        sidebarDepth: 1,
+        children: [
+          '/frontend/javascript/Object.defineProperty'
+        ]
+      }, ]
     },
     smoothScroll: true,
     lastUpdated: '最后更新时间',
