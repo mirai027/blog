@@ -1,5 +1,12 @@
 module.exports = {
+  base: '/blog/',
   title: 'Mirai 白',
+  head: [
+    ['link', {
+      rel: 'icon',
+      href: '/image/favicon.ico'
+    }]
+  ],
   description: '欲渡黄河冰塞川 将登太行雪满山',
   themeConfig: {
     nav: [{
