@@ -38,7 +38,7 @@ module.exports = {
                 link: '/mini-program/wx/'
               },
               {
-                text: 'Uniapp',
+                text: 'uni-app',
                 link: '/mini-program/uniapp/'
               }
             ]
@@ -89,7 +89,10 @@ module.exports = {
         collapsable: false,
         sidebarDepth: 1,
         children: [
-          '/frontend/javascript/Object.defineProperty'
+          '/frontend/javascript/Object.defineProperty',
+          '/frontend/javascript/prototype',
+          '/frontend/javascript/closure',
+          '/frontend/javascript/class',
         ]
       }, ]
     },
