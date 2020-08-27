@@ -69,7 +69,7 @@ module.exports = {
             link: '/vue/source-code/'
           },
           {
-            text: 'Mini Vue',
+            text: 'mini-vue',
             link: '/vue/mini-vue/'
           }
         ]
@@ -108,6 +108,14 @@ module.exports = {
             '/frontend/javascript/closure',
             '/frontend/javascript/class'
           ]
+        }
+      ],
+      '/vue/mini-vue/': [
+        {
+          title: '迷你 Vue',
+          collapsable: false,
+          sidebarDepth: 2,
+          children: ['/vue/mini-vue/']
         }
       ]
     },
