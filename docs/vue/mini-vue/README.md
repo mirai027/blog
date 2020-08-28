@@ -305,7 +305,7 @@ class Watcher {
 
 #### DEMO仓库地址
 
-https://github.com/mirai027/mini-vue
+[https://github.com/mirai027/mini-vue](https://github.com/mirai027/mini-vue)
 
 #### 对于数组的监听
 
