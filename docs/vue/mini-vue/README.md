@@ -310,6 +310,7 @@ https://github.com/mirai027/mini-vue
 #### 对于数组的监听
 
 这里直接把数组的每一项都添加上了`getter`和`setter`，所以`vm.items[1] = 'x'`也是响应式的。
-`Vue`中为什么没这样做呢？参考[为什么vue没有提供对数组属性的监听](为什么vue没有提供对数组属性的监听)
+
+`Vue`中为什么没这样做呢？参考 [为什么vue没有提供对数组属性的监听](https://github.com/vuejs/vue/issues/8562)
 
 ![Issues #8562](https://s1.ax1x.com/2020/08/28/dIlEo4.jpg)
