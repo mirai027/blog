@@ -13,7 +13,7 @@ module.exports = {
   description: '欲渡黄河冰塞川 将登太行雪满山',
   themeConfig: {
     nav: [{
-        text: '前端面试之道',
+        text: '顶级突破手',
         link: '/interview/'
       },
       {
@@ -75,7 +75,7 @@ module.exports = {
           },
           {
             text: 'Github',
-            link: 'https://github.com/Lucifer021'
+            link: 'https://github.com/mirai027'
           }
         ]
       }
