@@ -5,6 +5,10 @@
   "license": "MIT",
   "scripts": {
     "serve": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "build": "vuepress build docs",
+    "docs:build": "node ./builds/addComponents.js && vuepress build docs && node ./builds/delComponents.js"
+  },
+  "dependencies": {
+    "vuepress-plugin-mygitalk": "^1.0.5"
   }
 }
