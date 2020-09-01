@@ -82,13 +82,22 @@ module.exports = {
     ],
     sidebar: {
       '/interview/': [{
-        title: 'Vue',
-        collapsable: false,
-        sidebarDepth: 1,
-        children: [
-          '/interview/vue/父子组件prop值的双向绑定'
-        ]
-      }],
+          title: 'Vue',
+          collapsable: false,
+          sidebarDepth: 2,
+          children: [
+            '/interview/vue/父子组件prop值的双向绑定'
+          ]
+        },
+        {
+          title: 'nodejs',
+          collapsable: false,
+          sidebarDepth: 2,
+          children: [
+            '/interview/nodejs/node包管理器'
+          ]
+        }
+      ],
       '/frontend/css/': [{
         title: 'CSS',
         collapsable: false,
