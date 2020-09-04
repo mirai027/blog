@@ -84,14 +84,12 @@
 > `-P, --save-prod`：包裹将出现在您的中`dependencies`。这是默认设置，除非`-D`或`-O`存在。
 
 ```bash
-npm install/i <package_name> // 既然是默认，那就没必要加参数了
+npm install <package_name> // 既然是默认，那就没必要加参数了
 // 等价于
 npm i <package_name>
 ```
 
 **卸载**
-
-> `-D, --save-dev`：包裹将出现在您的中`devDependencies`。
 
 ```bash
 npm uninstall <package_name>
@@ -108,6 +106,8 @@ npm uni <package_name>
 众所周知，只是开发环境需要的东西，你都应该装在这个选项里只供开发环境使用。例如：`eslint`、`sass`
 
 **安装**
+
+> `-D, --save-dev`：包裹将出现在您的中`devDependencies`。
 
 ```bash
 npm install <package_name> --save-dev
@@ -165,7 +165,7 @@ npm install -g cnpm --registry=https://registry.npm.taobao.org
 
 全局安装来一手
 
-```js
+```bash
 npm install -g yarn
 ```
 
