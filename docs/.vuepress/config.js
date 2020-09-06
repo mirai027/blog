@@ -83,6 +83,12 @@ module.exports = {
     ],
     sidebar: {
       '/interview/': [{
+          title: 'Javascript',
+          collapsable: false,
+          sidebarDepth: 2,
+          children: ['/interview/javascript/数组去重']
+        },
+        {
           title: 'Vue',
           collapsable: false,
           sidebarDepth: 2,
