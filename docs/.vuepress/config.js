@@ -1,6 +1,6 @@
 module.exports = {
-  // base: '/blog/',
-  base: '/gitee-blog/blog/',
+  base: '/blog/',
+  // base: '/gitee-blog/blog/',
   title: 'Mirai 白',
   head: [
     [
@@ -13,15 +13,18 @@ module.exports = {
   ],
   description: '欲渡黄河冰塞川 将登太行雪满山',
   themeConfig: {
-    nav: [{
+    nav: [
+      {
         text: '顶级突破手',
         link: '/interview/'
       },
       {
         text: '枪械库',
-        items: [{
+        items: [
+          {
             text: '前端三剑客',
-            items: [{
+            items: [
+              {
                 text: 'HTML',
                 link: '/frontend/html/'
               },
@@ -37,7 +40,8 @@ module.exports = {
           },
           {
             text: '小程序',
-            items: [{
+            items: [
+              {
                 text: '微信小程序',
                 link: '/mini-program/wx/'
               },
@@ -49,16 +53,19 @@ module.exports = {
           },
           {
             text: '后端',
-            items: [{
-              text: 'Nodejs',
-              link: '/backend/nodejs/'
-            }]
+            items: [
+              {
+                text: 'Nodejs',
+                link: '/backend/nodejs/'
+              }
+            ]
           }
         ]
       },
       {
         text: 'Vue',
-        items: [{
+        items: [
+          {
             text: 'Vue 源码分析',
             link: '/vue/source-code/'
           },
@@ -74,7 +81,8 @@ module.exports = {
       },
       {
         text: '犯罪记录',
-        items: [{
+        items: [
+          {
             text: '掘金',
             link: 'https://juejin.im/user/4089838987133496/posts'
           },
@@ -86,17 +94,21 @@ module.exports = {
       }
     ],
     sidebar: {
-      '/interview/': [{
-          title: 'Javascript',
-          collapsable: false,
-          sidebarDepth: 2,
-          children: ['/interview/javascript/数组去重']
-        },
+      '/interview/': [
         {
           title: 'Vue',
           collapsable: false,
           sidebarDepth: 2,
-          children: ['/interview/vue/父子组件prop值的双向绑定']
+          children: [
+            '/interview/vue/父子组件prop值的双向绑定',
+            '/interview/vue/Prerender-SPA-Plugin'
+          ]
+        },
+        {
+          title: 'Javascript',
+          collapsable: false,
+          sidebarDepth: 2,
+          children: ['/interview/javascript/数组去重']
         },
         {
           title: 'nodejs',
@@ -105,35 +117,43 @@ module.exports = {
           children: ['/interview/nodejs/node包管理器']
         }
       ],
-      '/frontend/css/': [{
-        title: 'CSS',
-        collapsable: false,
-        sidebarDepth: 1,
-        children: ['/frontend/css/adaptive']
-      }],
-      '/frontend/javascript/': [{
-        title: 'Javascript',
-        collapsable: false,
-        sidebarDepth: 1,
-        children: [
-          '/frontend/javascript/Object.defineProperty',
-          '/frontend/javascript/prototype',
-          '/frontend/javascript/closure',
-          '/frontend/javascript/class'
-        ]
-      }],
-      '/vue/mini-vue/': [{
-        title: '迷你 Vue',
-        collapsable: false,
-        sidebarDepth: 2,
-        children: ['/vue/mini-vue/']
-      }],
-      '/performance/': [{
-        title: '性能优化',
-        collapsable: false,
-        sidebarDepth: 2,
-        children: ['/performance/回流重绘']
-      }]
+      '/frontend/css/': [
+        {
+          title: 'CSS',
+          collapsable: false,
+          sidebarDepth: 1,
+          children: ['/frontend/css/adaptive']
+        }
+      ],
+      '/frontend/javascript/': [
+        {
+          title: 'Javascript',
+          collapsable: false,
+          sidebarDepth: 1,
+          children: [
+            '/frontend/javascript/Object.defineProperty',
+            '/frontend/javascript/prototype',
+            '/frontend/javascript/closure',
+            '/frontend/javascript/class'
+          ]
+        }
+      ],
+      '/vue/mini-vue/': [
+        {
+          title: '迷你 Vue',
+          collapsable: false,
+          sidebarDepth: 2,
+          children: ['/vue/mini-vue/']
+        }
+      ],
+      '/performance/': [
+        {
+          title: '性能优化',
+          collapsable: false,
+          sidebarDepth: 2,
+          children: ['/performance/回流重绘']
+        }
+      ]
     },
     smoothScroll: true,
     lastUpdated: '最后更新时间',
