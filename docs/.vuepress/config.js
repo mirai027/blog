@@ -153,6 +153,14 @@ module.exports = {
           sidebarDepth: 2,
           children: ['/performance/回流重绘']
         }
+      ],
+      '/mini-program/uniapp/': [
+        {
+          title: '分享海报',
+          collapsable: false,
+          sidebarDepth: 2,
+          children: ['/mini-program/uniapp/poster']
+        }
       ]
     },
     smoothScroll: true,
